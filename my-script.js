@@ -10,6 +10,8 @@ $("#my-button").click(function(){
     success: function(data){
       $("#poke-name").html(data.name);
       
+      $("#poke-img").src = sprites.front_default;
+      
     }
   });
   

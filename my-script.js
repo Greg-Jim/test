@@ -1,6 +1,6 @@
 $("#my-button").click(function(){
   
-  var myInput = $("#my-input").val();
+  var myInput = $("#my-input").html();
   
   var myUrl = "http://pokeapi.co/api/v2/pokemon/" + myInput + "/";
   
